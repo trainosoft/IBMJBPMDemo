@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_dbAAYAxsED2fNr2XmQix0Q" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_YHAsUAxuED2Yw5IiyS4Zow" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="__FA1F76E1-27E6-4B70-867E-0A44C8F03979_SkippableInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__FA1F76E1-27E6-4B70-867E-0A44C8F03979_PriorityInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__FA1F76E1-27E6-4B70-867E-0A44C8F03979_CommentInputXItem" structureRef="Object"/>
@@ -12,8 +12,8 @@
   <bpmn2:itemDefinition id="__FA1F76E1-27E6-4B70-867E-0A44C8F03979_NotCompletedReassignInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__FA1F76E1-27E6-4B70-867E-0A44C8F03979_NotStartedNotifyInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__FA1F76E1-27E6-4B70-867E-0A44C8F03979_NotCompletedNotifyInputXItem" structureRef="Object"/>
-  <bpmn2:collaboration id="_E84FC8B0-5256-483D-9220-E461999327A2" name="Default Collaboration">
-    <bpmn2:participant id="_7E278356-38BB-41C7-8580-EA6FC1D17A55" name="Pool Participant" processRef="Untitled"/>
+  <bpmn2:collaboration id="_97CF5D3B-F743-423F-8503-B21964B96214" name="Default Collaboration">
+    <bpmn2:participant id="_C6DA43E4-42DD-47F7-BA9B-A848067B3100" name="Pool Participant" processRef="Untitled"/>
   </bpmn2:collaboration>
   <bpmn2:process id="Untitled" drools:packageName="com.example" drools:version="1.0" drools:adHoc="false" name="Untitled" isExecutable="true" processType="Public">
     <bpmn2:sequenceFlow id="_13A70BEA-F3F9-4885-B212-8A14EE2EA0C2" sourceRef="_FA1F76E1-27E6-4B70-867E-0A44C8F03979" targetRef="_933FFCF1-A55B-43FD-AE57-220060039D5C"/>
@@ -62,18 +62,18 @@
         <dc:Bounds height="56" width="56" x="416" y="254"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__FA1F76E1-27E6-4B70-867E-0A44C8F03979" bpmnElement="_FA1F76E1-27E6-4B70-867E-0A44C8F03979">
-        <dc:Bounds height="102" width="154" x="552" y="231"/>
+        <dc:Bounds height="102" width="154" x="681" y="225"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__933FFCF1-A55B-43FD-AE57-220060039D5C" bpmnElement="_933FFCF1-A55B-43FD-AE57-220060039D5C">
-        <dc:Bounds height="56" width="56" x="786" y="254"/>
+        <dc:Bounds height="56" width="56" x="1013" y="243"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="edge_shape__BA065C93-B679-41A7-ADE1-CFB2A4B9B78D_to_shape__FA1F76E1-27E6-4B70-867E-0A44C8F03979" bpmnElement="_4417F473-861E-4670-8ACB-8BCD1EE0AFC8">
         <di:waypoint x="444" y="282"/>
-        <di:waypoint x="629" y="282"/>
+        <di:waypoint x="758" y="276"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="edge_shape__FA1F76E1-27E6-4B70-867E-0A44C8F03979_to_shape__933FFCF1-A55B-43FD-AE57-220060039D5C" bpmnElement="_13A70BEA-F3F9-4885-B212-8A14EE2EA0C2">
-        <di:waypoint x="629" y="282"/>
-        <di:waypoint x="814" y="282"/>
+        <di:waypoint x="758" y="276"/>
+        <di:waypoint x="1041" y="271"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
@@ -112,7 +112,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_dbAAYAxsED2fNr2XmQix0Q</bpmn2:source>
-    <bpmn2:target>_dbAAYAxsED2fNr2XmQix0Q</bpmn2:target>
+    <bpmn2:source>_YHAsUAxuED2Yw5IiyS4Zow</bpmn2:source>
+    <bpmn2:target>_YHAsUAxuED2Yw5IiyS4Zow</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
